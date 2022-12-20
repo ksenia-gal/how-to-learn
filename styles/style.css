@@ -6,27 +6,26 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 .header {
-  position: relative;
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: relative;
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
   background-color: #f2f2f2;
 }
 .logo{
-  position: relative;
   width: 228px;
   height: 32px;
   top: 30px;
   left: 64px;
-  z-index: 3;
   }
   .logo_place_header{
     position: absolute;
+    z-index: 3;
   }
 .header__title{
   width: 730px;
@@ -35,13 +34,14 @@
   padding: 64px;
   font-weight: 600;
   z-index: 3;
+  outline: 2px solid red;
 }
 .header__subtitle{
   width: 388px;
   left: 64px;
   bottom: 30px;
   position: absolute;
-  height: 25px;
+  line-height: 25px;
   font-size: 18px;
   font-weight: normal;
   z-index: 3;
@@ -64,15 +64,18 @@
   z-index: 1;
 }
 .description{
-margin-top: 100px;
-margin-bottom: 100px;
 display: flex;
 justify-content: center;
+margin: 0;
+padding: 0;
+outline: 2px solid red;
 }
 .two-columns{
   display: flex;
+  margin: auto;
   justify-content: space-between;
   width: 80%;
+  outline: 2px solid red;
 }
 .two-columns__brief{
   width: 175px;
@@ -80,11 +83,14 @@ justify-content: center;
   font-size: 18px;
   font-weight: normal;
   color: #2f80ed;
+  margin: 0;
+  outline: 2px solid red;
 }
 .two-columns__paragraph{
   color: #000000;
   margin: 0;
   margin-bottom: 30px;
+  outline: 2px solid red;
 }
 .two-columns__main-text{
   width:80%;
@@ -92,16 +98,21 @@ justify-content: center;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  outline: 2px solid red;
 }
 .two-columns__span-accent{
   line-height: 34px;
   font-size: 24px;
   font-weight: 600;
   color: #000000;
+  outline: 2px solid red;
 }
 .digits{
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin: 0;
+  padding: 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  outline: 2px solid red;
 }
 .section-title{
 width: 60%;
@@ -111,15 +122,17 @@ font-weight: 600;
 margin: auto;
 text-align: center;
 padding: 0;
+outline: 2px solid red;
 }
 .section-subtitle{
   width: 60%;
-  margin-bottom: 60px;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  text-align: center;
   margin: auto;
+  text-align: center;
+  margin-top: 20px;
+  outline: 2px solid red;
 }
 .table{
   width: 1100px;
@@ -134,7 +147,6 @@ padding: 0;
 .table__cell{
   width: 250px;
   margin-top: 60px;
-  padding: 0;
   outline: 2px red solid;
 }
 .table__heading{
@@ -142,6 +154,7 @@ padding: 0;
   font-size: 24px;
   font-weight: 600;
   margin: 0;
+  outline: 2px solid red;
 }
 .table__text{
   line-height: 1.2;
@@ -156,6 +169,9 @@ padding: 0;
   position: relative;
   background-color: #f2f2f2;
   z-index: 0;
+  margin: 0;
+  padding: 0;
+  outline: 2px red solid;
 }
 .feynman__title{
   width: 648px;
@@ -165,6 +181,7 @@ padding: 0;
   margin: auto;
   text-align: center;
   z-index: 2;
+  outline: 2px red solid;
 }
 .feynman__subtitle{
   line-height: 51px;
@@ -173,6 +190,7 @@ padding: 0;
   text-align: center;
   margin-top: 70px;
   z-index: 2;
+  outline: 2px red solid;
 }
 .feynman__link{
   right: 48px;
@@ -182,6 +200,7 @@ padding: 0;
   font-size: 36px;
   font-weight: normal;
   z-index: 2;
+  outline: 2px red solid;
 }
 .feynman__img {
   position: absolute;
@@ -190,6 +209,7 @@ padding: 0;
   left: 0;
   bottom: 0;
   z-index: -1;
+  outline: 2px red solid;
 }
 /* и элемента с модификатором вида ключ-значение */
 .kaufman{
@@ -197,6 +217,8 @@ padding: 0;
   position: relative;
   overflow: hidden;
   z-index: 0;
+  margin: 0;
+  padding: 0;
 }
 .section-title_theme_dark{
   width: 60%;
