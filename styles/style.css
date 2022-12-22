@@ -103,6 +103,7 @@
   font-size: 24px;
   font-weight: 600;
   color: #000000;
+  margin: 0;
 }
 
 .digits {
@@ -153,9 +154,6 @@
   font-size: 18px;
   font-weight: normal;
   margin: 20px 0 0;
-}
-.two-columns__span-accent {
-  margin: 0;
 }
 
 .feynman {
