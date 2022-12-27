@@ -9,6 +9,8 @@
 @import url(../blocks/logo/_place/logo_place_header.css);
 @import url(../blocks/content/content.css);
 @import url(../blocks/content/description/description.css);
+@import url(../blocks/content/techniques/techniques.css);
+@import url(../blocks/content/digits/digits.css);
 @import url(../blocks/content/feynman/feynman.css);
 @import url(../blocks/content/feynman/__title/feynman__title.css);
 @import url(../blocks/content/feynman/__subtitle/feynman__subtitle.css);
