@@ -3,5 +3,5 @@
   margin: auto;
   justify-content: space-between;
   width: 80%;
-  padding-top: 100px;
+  outline: 2px solid red;
 }

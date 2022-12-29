@@ -1,8 +1,8 @@
-.cards__image.css {
+.cards__image {
   width: 160px;
   height: 160px;
-  margin-top: 60px;
-  margin-bottom: 40px;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin: 60px 40px 43px;
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
 }

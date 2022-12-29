@@ -1,7 +1,7 @@
-.video {
+.video__iframe {
+  width: 515px;
+  height: 316px;
   margin: 0;
   padding: 0;
-  padding-top: 100px;
   outline: 2px solid red;
-  margin-bottom: -60px;
 }
