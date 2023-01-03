@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./vendor/normalize.css">
-    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./blocks/pages/index.css">
     <title>Научиться учиться</title>
   </head>
 
@@ -101,16 +101,8 @@
         <h2 class="section-title">Видео нa TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <div class="video__iframes">
-          <video
-            class="video__iframe"
-            src="https://www.youtube.com/watch?v=arj7oStGLkU"
-            controls
-          ></video>
-          <video
-            class="video__iframe"
-            src="https://www.youtube.com/watch?v=5MgBikgcWnY"
-            controls
-          ></video>
+          <iframe src="https://www.youtube.com/embed/arj7oStGLkU" class="video__iframe"></iframe>
+          <iframe src="https://www.youtube.com/embed/5MgBikgcWnY" class="video__iframe"></iframe>
         </div>
       </section>
       <section class="oakley">
@@ -204,7 +196,7 @@
           <div class="khan__book-container">
             <img
               class="khan__book-pic"
-              src="../how-to-learn/images/khan-book.jpg"
+              src="./images/khan-book.jpg"
               alt="Книга"
             >
             <div class="khan__buy-link">Купить книгу →</div>
