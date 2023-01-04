@@ -7,8 +7,9 @@
   padding: 0;
   color: white;
   text-decoration: none;
+  transition: opacity 2s ease;
 }
 
 .footer__column-link:hover {
-  transition: opacity 10s ease;
+  opacity: 0;
 }

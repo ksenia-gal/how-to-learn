@@ -1,3 +1,4 @@
+@import url(../../vendor/normalize.css);
 @import url(../../blocks/page/page.css);
 @import url(../../blocks/header/header.css);
 @import url(../../blocks/header/__title/header__title.css);
@@ -66,4 +67,3 @@
 @import url(../../blocks/footer/__column-heading/footer__column-heading.css);
 @import url(../../blocks/footer/__column-links/footer__column-links.css);
 @import url(../../blocks/footer/__social-icon/footer__social-icon.css);
-@import url(../../README.md);
